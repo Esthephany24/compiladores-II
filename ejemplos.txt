@@ -1,0 +1,36 @@
+//ejemplo de codigo para hola mundo 
+int main (){
+  out<<'Hola Mundo'
+}
+
+//ejemplo de codigo para factorial iterativo
+int main (){
+  int n
+  int fact =1
+  int i
+  out 'Ingrese n'
+  in >> n
+  for (i=1; i<=n; i++)
+    fact =fact * i
+    out<<'Factorial de'<< n << 'es:'<< fact
+}
+
+//ejemplo de codigo para factorial recursivo
+
+int fact (int n)
+
+int main (){
+  int n
+  out 'Ingrese n'
+  in >> n
+  out<<'Factorial de'<< n << 'es:'<< fact(n)
+
+}
+
+int fact (int n){
+  if(n>1)
+    return n * fact(n-1)
+  else
+    return 1
+}
+

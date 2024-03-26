@@ -1,0 +1,4 @@
+//ejemplo de codigo para hola mundo
+int main (){
+  out<<'Hola Mundo'
+}

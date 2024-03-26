@@ -1,0 +1,24 @@
+int main() {
+    int x = 10
+
+    // Estructura de control if-else
+    if (x > 5) {
+        out << 'x es mayor que 5'
+    } else {
+        out << 'x no es mayor que 5' 
+    }
+
+    // Estructura de control while
+    int y = 0
+    while (y < 5) {
+        out << 'y es igual a ' << y 
+        y++
+    }
+
+    // Estructura de control for
+    for (int i = 0; i < 5; i++) {
+        out << 'El valor de i es: ' << i 
+    }
+
+    
+}
